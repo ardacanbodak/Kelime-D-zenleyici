@@ -1,0 +1,25 @@
+    <!--Html sayfası oluşturup id bilgisi content type değeri text olan bir imput oluşturacaksınız
+    Gönder butonu olacak ve gönder butonu tıklanınca imputa girilen bir cümlenin her kelimesinin ilk harfi büyük sonraki harfleri küçük olacak şekilde p elementi içerisinde input elementin altında Ekrana yazdıracaksınız...-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ödev</title>
+</head>
+<body>
+
+    <h2>Kelime Düzenleyici</h2>
+
+    <!-- Text input alanı ve gönder butonu -->
+    <label for="sentenceInput">Bir cümle girin:</label><br>
+    <input type="text" id="sentenceInput" contenteditable="true" /><br><br>
+
+    <button onclick="transformText()">Gönder</button>
+    
+    <p id="output"></p>
+
+    <script src="ödev.js"></script>
+</body>
+</html>
